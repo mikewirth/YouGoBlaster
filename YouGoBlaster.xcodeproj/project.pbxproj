@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* YouGoBlasterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* YouGoBlasterAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		2899E5220DE3E06400AC0155 /* YouGoBlasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* YouGoBlasterViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* YouGoBlasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* YouGoBlasterViewController.m */; };
+		8C03E73313793C41009BEBA9 /* sample2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C03E73213793C41009BEBA9 /* sample2.wav */; };
+		8C03E7361379E224009BEBA9 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C03E7351379E224009BEBA9 /* AsyncUdpSocket.m */; };
+		8C226C0213A0203C00AE4A0B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C226C0113A0203C00AE4A0B /* MediaPlayer.framework */; };
+		8C3C1ED0139DC9F1003D8399 /* ServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3C1ECE139DC9F1003D8399 /* ServerViewController.m */; };
+		8C3C1ED1139DC9F1003D8399 /* ServerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C3C1ECF139DC9F1003D8399 /* ServerViewController.xib */; };
+		8C51811513A8D32B0012D289 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C51811413A8D32B0012D289 /* QuartzCore.framework */; };
+		8C67752B13A3C97600B3AF41 /* TimeTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C67752A13A3C97600B3AF41 /* TimeTuple.m */; };
+		8C854FC913A4D03700FEA8B4 /* TimeOffsetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C854FC813A4D03700FEA8B4 /* TimeOffsetView.m */; };
+		8C9C16451376DD6400B5180F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9C16441376DD6400B5180F /* AVFoundation.framework */; };
+		8C9C16481376DD6800B5180F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9C16471376DD6800B5180F /* AudioToolbox.framework */; };
+		8C9C164A1376E3CD00B5180F /* sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 8C9C16491376E3CD00B5180F /* sample.m4a */; };
+		8C9C164C1376E6D100B5180F /* sample.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8C9C164B1376E6D100B5180F /* sample.wav */; };
+		8CA3835913A79FF000734DC7 /* ClientDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA3835813A79FF000734DC7 /* ClientDevice.m */; };
+		8CEA748E134F66D1002C1A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEA748D134F66D1002C1A66 /* Foundation.framework */; };
+		8CEA7490134F66DC002C1A66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEA748F134F66DC002C1A66 /* UIKit.framework */; };
+		8CEA7492134F66E4002C1A66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEA7491134F66E4002C1A66 /* CoreGraphics.framework */; };
+		8CEA7494134F66F5002C1A66 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CEA7493134F66F5002C1A66 /* CFNetwork.framework */; };
+		D043D7F30F94AA2A0030638C /* ServerNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D043D7F20F94AA2A0030638C /* ServerNetworking.m */; };
+		D043D7FB0F94B0BD0030638C /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = D043D7FA0F94B0BD0030638C /* Connection.m */; };
+		D043D8060F99B6A90030638C /* Client.m in Sources */ = {isa = PBXBuildFile; fileRef = D043D8050F99B6A90030638C /* Client.m */; };
+		D043D8480F99BB250030638C /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = D043D8470F99BB250030638C /* Server.m */; };
+		D043D91A0F9CB4A60030638C /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D043D9190F9CB4A60030638C /* AppConfig.m */; };
+		D043DA9D0F9CEA100030638C /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = D043DA9C0F9CEA100030638C /* ServerBrowser.m */; };
+		D0510A460F9DFCB900B735FA /* ClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0510A450F9DFCB900B735FA /* ClientViewController.m */; };
+		D0510A480F9DFD0300B735FA /* ClientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0510A470F9DFD0300B735FA /* ClientViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3623240D0F684500981E51 /* YouGoBlasterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouGoBlasterAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* YouGoBlasterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouGoBlasterAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* YouGoBlaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouGoBlaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2899E5210DE3E06400AC0155 /* YouGoBlasterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YouGoBlasterViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* YouGoBlasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouGoBlasterViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* YouGoBlasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouGoBlasterViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* YouGoBlaster_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouGoBlaster_Prefix.pch; sourceTree = "<group>"; };
+		8C03E73213793C41009BEBA9 /* sample2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sample2.wav; sourceTree = "<group>"; };
+		8C03E7351379E224009BEBA9 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		8C03E7371379E238009BEBA9 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		8C21290813A1EC4E0033FC45 /* ClientServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientServerDelegate.h; sourceTree = "<group>"; };
+		8C226C0113A0203C00AE4A0B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		8C3C1ECD139DC9F1003D8399 /* ServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerViewController.h; path = ../ServerViewController.h; sourceTree = "<group>"; };
+		8C3C1ECE139DC9F1003D8399 /* ServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerViewController.m; path = ../ServerViewController.m; sourceTree = "<group>"; };
+		8C3C1ECF139DC9F1003D8399 /* ServerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServerViewController.xib; sourceTree = "<group>"; };
+		8C51811413A8D32B0012D289 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8C67752913A3C97500B3AF41 /* TimeTuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeTuple.h; sourceTree = "<group>"; };
+		8C67752A13A3C97600B3AF41 /* TimeTuple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeTuple.m; sourceTree = "<group>"; };
+		8C854FC713A4D03700FEA8B4 /* TimeOffsetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeOffsetView.h; sourceTree = "<group>"; };
+		8C854FC813A4D03700FEA8B4 /* TimeOffsetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeOffsetView.m; sourceTree = "<group>"; };
+		8C9C16441376DD6400B5180F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		8C9C16471376DD6800B5180F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		8C9C16491376E3CD00B5180F /* sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.m4a; sourceTree = "<group>"; };
+		8C9C164B1376E6D100B5180F /* sample.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sample.wav; sourceTree = "<group>"; };
+		8CA3835713A79FF000734DC7 /* ClientDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientDevice.h; sourceTree = "<group>"; };
+		8CA3835813A79FF000734DC7 /* ClientDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientDevice.m; sourceTree = "<group>"; };
+		8CEA748D134F66D1002C1A66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8CEA748F134F66DC002C1A66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8CEA7491134F66E4002C1A66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8CEA7493134F66F5002C1A66 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D039DD800F9E33C100C77B72 /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowserDelegate.h; sourceTree = "<group>"; };
+		D043D7F10F94AA2A0030638C /* ServerNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerNetworking.h; sourceTree = "<group>"; };
+		D043D7F20F94AA2A0030638C /* ServerNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerNetworking.m; sourceTree = "<group>"; };
+		D043D7F40F94AF8C0030638C /* ServerNetworkingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerNetworkingDelegate.h; sourceTree = "<group>"; };
+		D043D7F90F94B0BD0030638C /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		D043D7FA0F94B0BD0030638C /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		D043D7FF0F94B27E0030638C /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		D043D8040F99B6A90030638C /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
+		D043D8050F99B6A90030638C /* Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Client.m; sourceTree = "<group>"; };
+		D043D8460F99BB250030638C /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		D043D8470F99BB250030638C /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		D043D9180F9CB4A60030638C /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		D043D9190F9CB4A60030638C /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
+		D043DA9B0F9CEA100030638C /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowser.h; sourceTree = "<group>"; };
+		D043DA9C0F9CEA100030638C /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowser.m; sourceTree = "<group>"; };
+		D0510A440F9DFCB900B735FA /* ClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ClientViewController.h; path = ../ClientViewController.h; sourceTree = "<group>"; };
+		D0510A450F9DFCB900B735FA /* ClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ClientViewController.m; path = ../ClientViewController.m; sourceTree = "<group>"; };
+		D0510A470F9DFD0300B735FA /* ClientViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClientViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C51811513A8D32B0012D289 /* QuartzCore.framework in Frameworks */,
+				8C226C0213A0203C00AE4A0B /* MediaPlayer.framework in Frameworks */,
+				8C9C16481376DD6800B5180F /* AudioToolbox.framework in Frameworks */,
+				8C9C16451376DD6400B5180F /* AVFoundation.framework in Frameworks */,
+				8CEA7494134F66F5002C1A66 /* CFNetwork.framework in Frameworks */,
+				8CEA7492134F66E4002C1A66 /* CoreGraphics.framework in Frameworks */,
+				8CEA7490134F66DC002C1A66 /* UIKit.framework in Frameworks */,
+				8CEA748E134F66D1002C1A66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D043DA070F9CC4C40030638C /* Business Logic */,
+				D043D7F00F94AA0B0030638C /* Networking */,
+				D0B0372F0FA61471000EC42B /* UI */,
+				D0510A710F9E14F200B735FA /* Misc */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* YouGoBlaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* YouGoBlaster_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C03E73213793C41009BEBA9 /* sample2.wav */,
+				8C9C164B1376E6D100B5180F /* sample.wav */,
+				8C9C16491376E3CD00B5180F /* sample.m4a */,
+				2899E5210DE3E06400AC0155 /* YouGoBlasterViewController.xib */,
+				D0510A470F9DFD0300B735FA /* ClientViewController.xib */,
+				8C3C1ECF139DC9F1003D8399 /* ServerViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C51811413A8D32B0012D289 /* QuartzCore.framework */,
+				8C226C0113A0203C00AE4A0B /* MediaPlayer.framework */,
+				8C9C16471376DD6800B5180F /* AudioToolbox.framework */,
+				8C9C16441376DD6400B5180F /* AVFoundation.framework */,
+				8CEA7493134F66F5002C1A66 /* CFNetwork.framework */,
+				8CEA7491134F66E4002C1A66 /* CoreGraphics.framework */,
+				8CEA748F134F66DC002C1A66 /* UIKit.framework */,
+				8CEA748D134F66D1002C1A66 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D043D7F00F94AA0B0030638C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8C03E7371379E238009BEBA9 /* AsyncUdpSocket.h */,
+				8C03E7351379E224009BEBA9 /* AsyncUdpSocket.m */,
+				D043D7F10F94AA2A0030638C /* ServerNetworking.h */,
+				D043D7F20F94AA2A0030638C /* ServerNetworking.m */,
+				D043D7F40F94AF8C0030638C /* ServerNetworkingDelegate.h */,
+				D043D7F90F94B0BD0030638C /* Connection.h */,
+				D043D7FA0F94B0BD0030638C /* Connection.m */,
+				D043D7FF0F94B27E0030638C /* ConnectionDelegate.h */,
+				D043DA9B0F9CEA100030638C /* ServerBrowser.h */,
+				D043DA9C0F9CEA100030638C /* ServerBrowser.m */,
+				D039DD800F9E33C100C77B72 /* ServerBrowserDelegate.h */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		D043DA070F9CC4C40030638C /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				8C67752913A3C97500B3AF41 /* TimeTuple.h */,
+				8C67752A13A3C97600B3AF41 /* TimeTuple.m */,
+				8CA3835713A79FF000734DC7 /* ClientDevice.h */,
+				8CA3835813A79FF000734DC7 /* ClientDevice.m */,
+				D043D8040F99B6A90030638C /* Client.h */,
+				D043D8050F99B6A90030638C /* Client.m */,
+				D043D8460F99BB250030638C /* Server.h */,
+				D043D8470F99BB250030638C /* Server.m */,
+				8C21290813A1EC4E0033FC45 /* ClientServerDelegate.h */,
+			);
+			name = "Business Logic";
+			sourceTree = "<group>";
+		};
+		D0510A710F9E14F200B735FA /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				D043D9180F9CB4A60030638C /* AppConfig.h */,
+				D043D9190F9CB4A60030638C /* AppConfig.m */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		D0B0372F0FA61471000EC42B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* YouGoBlasterAppDelegate.h */,
+				1D3623250D0F684500981E51 /* YouGoBlasterAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* YouGoBlasterViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* YouGoBlasterViewController.m */,
+				D0510A440F9DFCB900B735FA /* ClientViewController.h */,
+				D0510A450F9DFCB900B735FA /* ClientViewController.m */,
+				8C3C1ECD139DC9F1003D8399 /* ServerViewController.h */,
+				8C3C1ECE139DC9F1003D8399 /* ServerViewController.m */,
+				8C854FC713A4D03700FEA8B4 /* TimeOffsetView.h */,
+				8C854FC813A4D03700FEA8B4 /* TimeOffsetView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* YouGoBlaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "YouGoBlaster" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouGoBlaster;
+			productName = Chatty;
+			productReference = 1D6058910D05DD3D006BFB54 /* YouGoBlaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "YouGoBlaster" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* YouGoBlaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* YouGoBlasterViewController.xib in Resources */,
+				D0510A480F9DFD0300B735FA /* ClientViewController.xib in Resources */,
+				8C9C164A1376E3CD00B5180F /* sample.m4a in Resources */,
+				8C9C164C1376E6D100B5180F /* sample.wav in Resources */,
+				8C03E73313793C41009BEBA9 /* sample2.wav in Resources */,
+				8C3C1ED1139DC9F1003D8399 /* ServerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* YouGoBlasterAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* YouGoBlasterViewController.m in Sources */,
+				D043D7F30F94AA2A0030638C /* ServerNetworking.m in Sources */,
+				D043D7FB0F94B0BD0030638C /* Connection.m in Sources */,
+				D043D8060F99B6A90030638C /* Client.m in Sources */,
+				D043D8480F99BB250030638C /* Server.m in Sources */,
+				D043D91A0F9CB4A60030638C /* AppConfig.m in Sources */,
+				D043DA9D0F9CEA100030638C /* ServerBrowser.m in Sources */,
+				D0510A460F9DFCB900B735FA /* ClientViewController.m in Sources */,
+				8C03E7361379E224009BEBA9 /* AsyncUdpSocket.m in Sources */,
+				8C3C1ED0139DC9F1003D8399 /* ServerViewController.m in Sources */,
+				8C67752B13A3C97600B3AF41 /* TimeTuple.m in Sources */,
+				8C854FC913A4D03700FEA8B4 /* TimeOffsetView.m in Sources */,
+				8CA3835913A79FF000734DC7 /* ClientDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Guthrie (RD5WWGMR74)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YouGoBlaster_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = YouGoBlaster;
+				PROVISIONING_PROFILE = "C0270940-3F4D-468F-9857-6CA6990ED6B9";
+				SDKROOT = iphoneos4.3;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Guthrie (RD5WWGMR74)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YouGoBlaster_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = YouGoBlaster;
+				PROVISIONING_PROFILE = "C0270940-3F4D-468F-9857-6CA6990ED6B9";
+				SDKROOT = iphoneos4.3;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator2.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PREBINDING = NO;
+				SDKROOT = iphonesimulator2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "YouGoBlaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "YouGoBlaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
